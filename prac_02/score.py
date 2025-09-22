@@ -1,8 +1,6 @@
-def main():
-    score = float(input("Enter score: "))
-    print(determine_grade(score))
 
-def determine_grade(score):
+    score = float(input("Enter score: "))
+
     if score < 0 or score > 100:
         print("Invalid score")
     elif score >= 90:
@@ -12,4 +10,3 @@ def determine_grade(score):
     else:
         print("Bad")
 
-main()
